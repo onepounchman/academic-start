@@ -9,25 +9,29 @@ headless: true
 # Order that this section appears on the page.
 weight: 100
 
-title: Skills
+title: Programming Skills
 subtitle:
 
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 90%
+- description: Proficient
   icon: r-project
   icon_pack: fab
   name: R
-- description: 100%
-  icon: chart-line
-  icon_pack: fas
-  name: Statistics
-- description: 10%
-  icon: camera-retro
-  icon_pack: fas
-  name: Photography
+- description: Competent
+  icon: python
+  icon_pack: fab
+  name: Python
+- description: Competent
+  icon: 
+  icon_pack: 
+  name: Matlab
+- description: Advanced beginner
+  icon: java
+  icon_pack: fab
+  name: Java
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"

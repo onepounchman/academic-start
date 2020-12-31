@@ -25,9 +25,11 @@ feature:
   icon_pack: fab
   name: Python
 - description: Competent
-  icon: matlab
-  icon_pack: custom
+  icon: calculator
+  icon_pack: fab
   name: Matlab
+
+
 - description: Advanced beginner
   icon: java
   icon_pack: fab

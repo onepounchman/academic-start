@@ -25,7 +25,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: MSC in Biostatistics
+  - course: MSc in Biostatistics
     institution: University of Washington
     year: 2021
   - course: BSc in Applied Mathematics

@@ -64,7 +64,7 @@ email: ""
 highlight_name: false
 ---
 
-Wenbo Zhang is a second-year master student at Biostatistics Department, University of Washington. His research interest is related to statistical machine learning and their application to biomedical data, especially neuroiamging. Prior to UW, He received his BSc in Applied Mathematics from Xi'an Jiaotong- Liverpool University.
+Wenbo Zhang is a second-year master student at Biostatistics department, University of Washington. His research interest is related to statistical machine learning and their application to biomedical data, especially neuroiamging. Prior to UW, He received his BSc in Applied Mathematics from Xi'an Jiaotong- Liverpool University.
 
 
 

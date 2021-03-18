@@ -19,8 +19,9 @@ bio: My research interests include statistical machine learning, neuroimagimg da
 # Interests to show in About widget
 interests:
 - Statistical Learning
+- Deep Learning
 - Neuroimaging Data Analysis
-- Causal Inference
+
 
 # Education to show in About widget
 education:

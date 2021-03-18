@@ -13,7 +13,7 @@ authors:
 # Author notes (optional)
 
 
-date: ""
+date: "2021-5-15T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -27,7 +27,7 @@ publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 publication: *In Preparation*
-publication_short: In *In Preparation*
+publication_short: *In Preparation*
 
 abstract: Linear discriminant analysis methods are increasingly developed and used for classification tasks. However, many existing algorithms cannot incorporate complex information about the structure of the data into the model, especially for neuroimaging. In this paper, we introduce a novel Functional Linear Discriminant Analysis to deal with functional data located over a two dimensional manifold. To involve roughness in the model, we introduce the Laplace–Beltrami penalty coherent with the geodesic distance over the manifold and generalize this surface-constrained penalty from the previous regression setting to this classification approach. The model can be used for functional samples evaluated in different grids of points and applied for any manifold topology. We use finite element analysis to approximate the manifold and propose an iterative optimization algorithm to estimate the solution. We test our algorithm on simulated data sets where the shape is a brainstem template and compare it with the pre-smoothing approach. The results demonstrate that our method can be effective when we have functional data from topological manifolds.
 

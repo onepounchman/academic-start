@@ -2,8 +2,8 @@
 title: Functional linear discriminant analysis for neuroimaging
 summary: An example of using the in-built project page.
 tags:
-- Deep Learning
-date: "2016-04-27T00:00:00Z"
+- Statistical Learning
+date: "2020-12-1T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

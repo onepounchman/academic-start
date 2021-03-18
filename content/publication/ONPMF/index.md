@@ -42,7 +42,7 @@ featured: false
 # Custom links (uncomment lines below)
 links:
 - name: Custom Link
-  url: https://ieeexplore.ieee.org/abstract/document/8633228
+  url: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11596/115960X/Finding-atrophy-patterns-of-grey-matter-through-orthonormal-non-negative/10.1117/12.2581860.short?webSyncID=ae3dced0-db51-d96a-aae3-7198aac3c88c&sessionGUID=08e1c64c-9702-6d87-3b13-9ac658444437&SSO=1
 
 url_pdf: ''
 url_code: ''

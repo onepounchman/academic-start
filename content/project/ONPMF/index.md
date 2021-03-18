@@ -2,14 +2,16 @@
 title: Finding atrophy patterns of grey matter through orthonormal non-negative factorization
 summary: Utilize matrix factorization and clustering technique to detect the subgroups of disease
 tags:
-- Matrix Factorization, Clustering, Neuroimaging
+- Matrix Factorization
+- Clustering
+- Neuroimaging
 #date: "2020-11-1T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: 3D mesh nodes of a half brain
+  caption: Working pipeline of our fraework
   focal_point: Smart
 
 #links:

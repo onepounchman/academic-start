@@ -13,7 +13,7 @@ authors:
 # Author notes (optional)
 
 
-date: "2021-3-1T00:00:00Z"
+date: "2021-3-15T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -26,7 +26,7 @@ publishDate: "2021-3-15T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Biometricks*
+publication:  *Submited to Biometricks*
 publication_short: In *Biometricks*
 
 abstract: Identifying a biomarker or treatment-dose threshold that gives a specified level of risk is an important problem, especially in clinical trials. This risk, viewed as a function of thresholds and possibly adjusted for covariates,we call the threshold-response function. Extending the work of Donovan et al (2019), we propose a nonparamet-ric estimator for the covariate-adjusted threshold-response function, which utilizes machine learning and Targeted Maximum Likelihood Estimation (TMLE). The estimator proposed in Donovan etal, which is a nonparametricmaximum likelihood estimator (NPMLE), may be viewed as a special case of the proposed TML estimator. We additionally propose a similar estimator that is based on sequential regression, which also applies when there is outcome missingness. We show that the threshold-response for a given threshold may be viewed as the expected outcome under a stochastic intervention where all participants are given a treatment dose above the threshold. We prove the estimator is efficient and characterize its  asymptotic distribution. A method to construct simultaneous 95% confidence bands for the threshold-response function and its inverse is also given. The methods are assessed in a diverse set of simulation settings with rare outcomes and cumulative case-control sampling. The methods are employed to estimate neutralizing  antibody thresholds for virologically confirmed dengue risk in the CYD14 and CYD15 dengue trials.

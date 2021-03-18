@@ -13,7 +13,7 @@ authors:
 # Author notes (optional)
 
 
-date: "2021-3-15T00:00:00Z"
+date: "2021-3-6T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -65,8 +65,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-#projects:
-#- example
+projects:
+- example
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

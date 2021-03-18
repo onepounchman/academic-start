@@ -1,17 +1,17 @@
 ---
-title: Functional linear discriminant analysis for neuroimaging
-summary: Develop a functional data analysis technique to analysis brain data
+title: Chromosome Classification with Convolutional Neural Network 
+summary: Develop a deep learning based model to classify chromosome images
 tags:
-- Statistical Learning
-- Functional Data Analysis
-- Neuroimaging
+- Deep Learning
+- Computer Vision
+
 #date: "2020-12-1T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: 3D mesh nodes of a half brain
+  caption: CNN architecture used for chromosome classification
   focal_point: Smart
 
 #links:
@@ -31,11 +31,8 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 #slides: example
 ---
+The human cell normally contains 23 pairs of chromo- somes, including 22 pairs of autosomes (the ones exist in both males and females) as well as sex chromosomes X and Y. Females have double X chromosomes as one pair of sex chromosomes, while males have both X and Y. Chromosome abnormality, namely aneuploidy (having abnormal number of chromosomes in a cell) and structural abnormalities (including deletions, duplication, translocation, inversion, insertions rings, and isochromosome) may cause genetic disorder such as Down’s syndrome. It is important to inspect the cells of a patient and identify any irregular, extra or missing parts for diagnostic purposes. Karyotyping, the process of separating and classifying human chromosomes from a cell image, plays a crucial role in this diagnosis process.
 
-Neuroimaging data play an important role to help people understand the brain. Statistical modelsin high dimensional settings have been widely used to deal with imaging modalities as Structural Magnetic Resonance Imaging (sMRI), functional Magnetic Resonance Imaging (fMRI) and Elec-troencephalography (EEG). One critical question is that how to incorporate complex information about brain structure and function into the statistical models.
+However, accomplishing this work efficiently not only requires considerable manual efforts, domain expertise and experience, but also consumes a lot of time. Since 1980, with the motivation of lightening the load of cytogeneticists, automatic diagnosis systems for chromosome karyotyping and analysis have become a popular and important task.
 
-Considering cerebral cortex is the highly convoluted thin sheet, it can be represented as a 2D surface embedded in a 3D space, structured with a 2D geodesic distance. A functional principal components analysis (FPCA) approach over this 2D smooth manifold has been proposed. One advantage of this surface-constrained technique is avoiding the similarity for functionally different areas caused by 3D Euclidean distance because those areas may be close to each other if measured with Euclidean distance. However, current approaches only focus on regression settings, and there are no extensions to incorporate this novel penalty into the classification approaches.
-
-Linear discriminant analysis (LDA) is an well-known method for classification. Its basic strategyis to find projections such that data can be mapped into the most discriminative low-dimensional subspace. However, classic LDA tend to fail when the numberof predictorspis large relative to the number of observationsn. In such case, penalized LDA has become increasingly popular. Penalized LDA classifier can be derived from three different framworks, which we shall refer to as the Gaussian model, Fisher’s discriminant problem, and the optimal scoringproblem. In terms of functional data, a functional Lineardiscriminant analysis (FLDA) based on Gaussian LDA is proposed. 
-
-In this project, we generalize the surface-constrained to the classification appraoch FLDA in theoptimal scoring framework. This method is suitable for working with functional data distributed overcurved domains and specifically over two-dimensional smooth Riemannian manifolds.
+With the development of CNNs, they have been utilized in medical image sector to deal with complicated features. CNN based models have been explored to analyze chromosome images. In this study, we consider to construct a new CNN based model to address the above issues.

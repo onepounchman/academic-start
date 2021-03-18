@@ -1,5 +1,5 @@
 ---
-title: Example Project
+title: Functional linear discriminant analysis for neuroimaging
 summary: An example of using the in-built project page.
 tags:
 - Deep Learning

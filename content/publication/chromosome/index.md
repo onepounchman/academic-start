@@ -43,9 +43,9 @@ tags: []
 featured: false
 
 # Custom links (uncomment lines below)
-links:
-- name: Custom Link
-   url: https://ieeexplore.ieee.org/abstract/document/8633228
+#links:
+#- name: Custom Link
+#   url: https://ieeexplore.ieee.org/abstract/document/8633228
 
 url_pdf: ''
 url_code: ''

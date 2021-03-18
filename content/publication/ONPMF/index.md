@@ -6,7 +6,7 @@ title: "Finding Atrophy Patterns of Grey Matter through Orthonormal Non-negative
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Kwun Chuen Gary Chan
+- Gary Chan
 - Dean Shibata
 - David Haynor
 
@@ -40,9 +40,9 @@ tags: []
 featured: false
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: https://ieeexplore.ieee.org/abstract/document/8633228
+links:
+- name: Custom Link
+  url: https://ieeexplore.ieee.org/abstract/document/8633228
 
 url_pdf: ''
 url_code: ''
@@ -73,6 +73,6 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+#slides: example
 ---
 

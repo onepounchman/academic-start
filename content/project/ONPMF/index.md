@@ -1,5 +1,5 @@
 ---
-title: Finding atrophy patterns of grey matter through orthonormal non-negative factorization
+title: Finding Atrophy Patterns of Grey Matter through Orthonormal Non-negative Factorization
 summary: Utilize matrix factorization and clustering technique to detect the subgroups of disease
 tags:
 - Matrix Factorization

@@ -1,5 +1,5 @@
 ---
-title: Functional linear discriminant analysis for neuroimaging
+title: Functional Linear Discriminant Analysis for Neuroimaging
 summary: Develop a functional data analysis technique to analysis brain data
 tags:
 - Statistical Learning

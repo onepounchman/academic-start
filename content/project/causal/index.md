@@ -11,7 +11,7 @@ date: "2020-12-1T00:00:00Z"
 external_link: ""
 
 image:
-  caption: Conditional Risk Curve for Vaccine and Placebo Group Combined based on EIA and PCA markers: Endpoint 1
+  caption: Conditional Risk Curve for Vaccine and Placebo Group Combined based on EIA and PCA markers
   focal_point: Smart
 
 #links:

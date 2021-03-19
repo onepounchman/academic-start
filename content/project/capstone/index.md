@@ -1,5 +1,6 @@
 ---
 title: Examining the association between Socioeconomic Status(SES) and Air Pollution in Alameda County
+summary: The goal is to learn about differential levels of air pollution exposure for different population groups
 tags:
 - Spatial Statistics
 - Nearest Neighbor Gaussian Process 

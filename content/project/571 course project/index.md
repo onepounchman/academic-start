@@ -1,17 +1,17 @@
 ---
-title: Finding atrophy patterns of grey matter through orthonormal non-negative factorization
-summary: Utilize matrix factorization and clustering technique to detect the subgroups of disease
+title: A Multivariate Longitudinal Model Using Multi-task Gaussian Process Regression
+summary: Develop a novel a Gaussian process framework for analyzing longitudinaldata with multiple outcomes. 
 tags:
-- Matrix Factorization
-- Clustering
-- Neuroimaging
-date: "2020-11-1T00:00:00Z"
+- Additive Gaussian Process Regression
+- Multi-task Learning
+- Longitudinal
+date: "2020-12-4T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: Working pipeline of our fraework
+  caption: Sample true and predicted trajectories for a random sample of five people in simulation study
   focal_point: Smart
 
 #links:
@@ -32,8 +32,10 @@ url_video: ""
 #slides: example
 ---
 
-Alzheimer’s disease (AD) is characterized by widespread cerebral volume loss (atrophy) at autopsy and structural MRI (sMRI). It is also a devastating neurodegenerative disease, and currently there is no disease-modifying treatment available. It has become increasingly clear that AD is a heterogeneous disease with varying symptoms, cognitive deficits, rates of progression, and anatomic localization within the brain. Some studies have suggested that the spatial distribution of atrophy varies across Alzheimer’s Disease subtypes, and that the gray matter (GM) volume loss patterns may be useful to investigate the heterogeneity in AD. Therefore, the ability to quantify and group the varying patterns of atrophy in AD patients might be helpful to improve our understanding of disease processes.
+Many modern biomedical research problems are both multivariate and longitudinal. For example, multiple biomarkers or phenotypes are often measured at multiple times during the course of a genetic study. Modeling multivariate outcomes jointly often improves prediction by leveraging the correlations between them, and biomedical outcomes are often correlated.
 
-Recent advances in data-driven methodologies provide automated and interpretable ways to find spatial patterns in the population of subjects. Cortical thickness–based clustering approaches have been investigated with machine learning algorithms to suggest AD subtypes. Previous studies have also used estimates of grey matter from sMRI to identify subtypes. A data-driven Bayesian framework using latent Dirichlet allocation (LDA) was used to estimate latent AD atrophy factors and for each subject and multiple atrophy patterns have been estimated rather than assigning each participant to a single subtype. In other work, a non-linear semi-supervised learning algorithm was used to reveal heterogeneity in AD. These studies often employ clustering methods that only rely on the global similarity of atrophy patterns amongst individuals, which may not be able to identify particular atrophy patterns of a subset of individuals. Non-negative matrix factorization is a matrix factorization approach that a non-negative data matrix is approximately decomposed into the product of two low-rank non-negative matrices. It has been used for dimension reduction but also can be employed in clustering. Therefore, this technique is particularly suitable for atrophy subtype discovery. It was used to identify atrophy subtypes in Alzheimer’s disease dementia, and identified atrophy subtypes were compared based on clinical, biological and cognitive characteristics. One study has used a combination of brain volumes from MRI and neuropsychological assessments in a non-biased fashion and proposes a coupled non-negative matrix factorization (c-NMF) framework to compute phenotyping. Recently, some researchers have developed a modified version of NMF, called orthonormal projective non-negative matrix factorization (OPNMF), and applied it to neuroimaging data. This approach provides components that could be considered as abiologically more meaningful parts-based representation of the disease as compared to more standard approaches. Hence, OPNMF, as a relatively new approach for feature extraction techniques of neuroimaging data, has potential to provide different perspectives for discovering atrophy components.
+Previous work has developed a variety of multivariate models for biomedical applications. Such models include a kernel machine-based multivariate regression to facilitate the joint evaluation of multi-biomarker effects on multiple phenotypes; a multivariate microbiome regression-based kernel test for association between multiple continuous outcomes and overall microbiome composition; and a scaled marginal model for genome-wide association analysis of multiple continuous secondary phenotypes in case-control studies. However, these methods do not account for within-subject correlations over repeated measurements in the case of longitudinal data.
 
-In this study, we explore the heterogeneity of atrophy patterns in AD using a data-driven framework which yields multiple distinct localized components of gray matter atrophy. We are interested in extracting biologically meaningful components and measuring their association. For this purpose, we quantify subject-level loss coefficients with non-negative least squares and regard them as reflection of how the corresponding components contribute to atrophy loss. We show the ability of those coefficients to distinguish diagnosis groups. Considering the normality assumption may not hold, we assess their correlation of Alzheimer’s disease using Gaussian copula graphical models (GCGMs) rather than ordinary Gaussian graphical models (GGMs). Finally, we use a hierarchical agglomerative cluster analysis to find potential subtypes for each AD subject.
+On the other hand, a variety of flexible modeling approaches exist for analyzing longitudinal data, but to our knowledge these have been primarily limited to univariate outcomes. The mixed model and the method of generalized estimating equations (GEE) are widely used to address correlation in longitudinal data. Additionally, one extension of linear mixed effects model, called LonGP, is a flexible and interpretable non-parametric modeling framework. In that framework, a GP model can be made additive by defining the kernel function to be a sum of individual and product (interaction) kernels, similar to standard linear models. Multi-task learning is a branch of machine learning for jointly modeling related tasks or outcomes, allowing the tasks to share information and thereby improving predictions in many scenarios. Multi-task Gaussian processes (GPs) are a class of multi-tasking learning methods building upon the standard GP model to learn inter-task dependencies based on the task identities and the observed data for each task. The learned inter-task dependencies are represented by a positive semi-definite task-similarity matrix which can be used in conjunction with a covariance function over the input features. Nonparameteric methods such as GPs make fewer assumptions about the underlying data generating mechanisms.
+
+Therefore, this work proposes a general framework for analyzing longitudinal data with multiple outcomes. We combine an additive GP framework with multi-task learning to handle multivariate longitudinal data.

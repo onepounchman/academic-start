@@ -14,7 +14,7 @@ organizations:
   url: 
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include statistical machine learning, neuroimagimg data analysis and causal inference.
+bio: My research interests include statistical machine learning, deep learning and neuroimagimg data analysis.
 
 # Interests to show in About widget
 interests:

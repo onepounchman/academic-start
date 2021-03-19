@@ -37,6 +37,6 @@ design:
   view: 4
 ---
 
-{{% callout note %}}
-[find all publications](./publication/).
-{{% /callout %}}
+#{{% callout note %}}
+#[find all publications](./publication/).
+#{{% /callout %}}

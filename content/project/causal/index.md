@@ -1,10 +1,10 @@
 ---
-title: Functional linear discriminant analysis for neuroimaging
-summary: Develop a functional data analysis technique to analysis brain data
+title: Assessment of Antibody Marker Correlates of Risk and Protection 
+summary: A clinical trials about Vaccine Efficacy 
 tags:
-- Statistical Learning
-- Functional Data Analysis
-- Neuroimaging
+- Clinical Trials
+- Machine Learning
+- Causal Inference
 #date: "2020-12-1T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -31,11 +31,7 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 #slides: example
 ---
+This project focuses on the assessment of anti-F IgG ELISA, Palivizumab-competitive antibody (PCA), and Microneutralization (MN) 50% antibody titers to RSV/A and RSV/B, measured in mothers and their infants, as correlates of risk and as correlates of protection against RSV disease endpoints in infants in RSV-M-301. The correlates analyses are conducted for the South Africa study sites and follow-up period of infants through to 90 days of age. To build ‘estimated optimal surrogates’ based on different specified antibody variable sets, i.e., models that best predict the RSV disease endpoint, we implementation of Superlearner Regression, an ensemble model, to conduct this.
 
-Neuroimaging data play an important role to help people understand the brain. Statistical modelsin high dimensional settings have been widely used to deal with imaging modalities as Structural Magnetic Resonance Imaging (sMRI), functional Magnetic Resonance Imaging (fMRI) and Elec-troencephalography (EEG). One critical question is that how to incorporate complex information about brain structure and function into the statistical models.
+In clinical trials, one is often interested in identifying a biomarker that is predictive of a clinical outcome of interest. In particular, in vaccine efficacy trials, one aims to find so called correlates of protection, such as neutralizing antibody titer, that are indicative of the risk of disease and vaccine efficacy. Such correlates allow one to predict the efficacy of new vaccines by only analyzing immunological measures, as opposed to observing the clinical endpoints. Such analysis generally requires only hundreds, rather than thousands, of participants in the vaccine study, and allows for vaccine efficacy to be assessed efficiently in terms of both economic resources and time. For such purposes, a prominent correlate is the so-called threshold of protection, generally defined as a threshold value of an immune- response biomarker that predicts a low risk of disease, combined with other evidence for a valid surrogate endpoint.We also develop a nonparametric CoR threshold estimation method, using the version accounting for right-censoring of some follow-up times. We develop a nonparametric CoR threshold estimation method which allows adjustment of arbitrary baseline covariates based on TMLE.
 
-Considering cerebral cortex is the highly convoluted thin sheet, it can be represented as a 2D surface embedded in a 3D space, structured with a 2D geodesic distance. A functional principal components analysis (FPCA) approach over this 2D smooth manifold has been proposed. One advantage of this surface-constrained technique is avoiding the similarity for functionally different areas caused by 3D Euclidean distance because those areas may be close to each other if measured with Euclidean distance. However, current approaches only focus on regression settings, and there are no extensions to incorporate this novel penalty into the classification approaches.
-
-Linear discriminant analysis (LDA) is an well-known method for classification. Its basic strategyis to find projections such that data can be mapped into the most discriminative low-dimensional subspace. However, classic LDA tend to fail when the numberof predictorspis large relative to the number of observationsn. In such case, penalized LDA has become increasingly popular. Penalized LDA classifier can be derived from three different framworks, which we shall refer to as the Gaussian model, Fisher’s discriminant problem, and the optimal scoringproblem. In terms of functional data, a functional Lineardiscriminant analysis (FLDA) based on Gaussian LDA is proposed. 
-
-In this project, we generalize the surface-constrained to the classification appraoch FLDA in theoptimal scoring framework. This method is suitable for working with functional data distributed overcurved domains and specifically over two-dimensional smooth Riemannian manifolds.

@@ -5,13 +5,13 @@ tags:
 - Clinical Trials
 - Machine Learning
 - Causal Inference
-#date: "2020-12-1T00:00:00Z"
+date: "2020-12-1T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: 3D mesh nodes of a half brain
+  caption: Conditional Risk Curve for Vaccine and Placebo Group Combined based on EIA and PCA markers: Endpoint 1
   focal_point: Smart
 
 #links:

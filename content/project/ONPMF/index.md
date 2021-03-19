@@ -5,7 +5,7 @@ tags:
 - Matrix Factorization
 - Clustering
 - Neuroimaging
-#date: "2020-11-1T00:00:00Z"
+date: "2020-11-1T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

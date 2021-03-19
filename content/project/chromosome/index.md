@@ -5,7 +5,7 @@ tags:
 - Deep Learning
 - Computer Vision
 
-#date: "2020-12-1T00:00:00Z"
+date: "2018-12-1T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
